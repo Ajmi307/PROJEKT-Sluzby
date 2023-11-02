@@ -12,6 +12,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     padding: 60px 30px;
     text-align: center;
+    background-color: #FAFAFA;
   }
 
 .cestovatel{
@@ -20,13 +21,77 @@ html {
 
 h1{
     font-size: 28px;
-    margin-top: 195px;
+    margin-top: 40px;
+    color:#000000;
+}
+
+h2{
+  color:#000000;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 60px;
 }
 
 p{
-    font-size: 16px;
-    font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #8B8B8B;
 }
+
+
+hr{
+  border-color: #407BFF;
+  border-bottom: 0px;
+  max-width: 60px;
+  border-width: 2px;
+}
+
+.tlacitko{
+border-radius: 25px;
+padding: 10px 30px;
+text-decoration: none;
+color: #FFFFFF;
+  font-size: 14px;
+}
+
+a.tlacitko{
+  display:inline-block;
+}
+
+  .prvni{
+    background-color: #407BFF;
+    margin-bottom: 10px;
+  }
+
+.druhe{
+  background-color: #8B8B8B;
+ 
+}
+
+.uvod{
+  margin-bottom: 30px;
+}
+
+.box{
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+}
+
+.box img{
+  margin-right: 30px;
+}
+
+.box p{
+  font-size: 13px;
+}
+
+
 
 
 /* tablet */
