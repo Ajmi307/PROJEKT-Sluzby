@@ -17,6 +17,7 @@ html {
 
 .cestovatel{
     width: 350px;
+   
 }
 
 h1{
@@ -59,7 +60,7 @@ a.tlacitko{
   display:inline-block;
 }
 
-  .prvni{
+.prvni{
     background-color: #407BFF;
     margin-bottom: 10px;
   }
@@ -93,9 +94,43 @@ a.tlacitko{
 
 
 
-
 /* tablet */
-  @media (min-width: 640){
+@media (min-width: 640px) {
+  
+  body{
+    padding: 60px 10px;
+  }
+
+  .uvod, header p{
+    padding: 0 110px;
+  }
+
+    .cestovatel{
+      width: 400px;
+    }
+
+    .nechapu{
+      display: inline-block;
+    }
+
+    a.tlacitko.prvni{
+      margin-right: 20px;
+    }
+
+    .karticky{
+      display: flex;
+    
+    }
+
+    .box{
+      justify-content: space-between;
+      margin: 10px;
+      display: block;
+    }
+
+    .box img{
+      margin-right: 0;
+    }
 
   }
 
@@ -104,6 +139,10 @@ a.tlacitko{
  text v pruhu 1040px
 */
   @media (min-width: 1100px){
+  header{
+    display: flex;
+  }
+
    
   }
     
